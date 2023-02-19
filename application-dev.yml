@@ -1,1 +1,9 @@
 
+ 
+eureka:
+   client:
+      registerWithEureka: true
+      fetchRegistry: true 
+      serviceURL:
+         defaultZone: http://localhost:8585/EUREKA-SERVER
+    
